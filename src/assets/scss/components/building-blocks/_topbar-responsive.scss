@@ -1,6 +1,7 @@
 $topbar-responsive-bg: #00626b;
 $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
+
 .topbar-responsive {
   background: $topbar-responsive-bg;
   padding: 1rem 1.5rem;
@@ -105,4 +106,63 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
       animation: none;
     }
   }
+}
+
+.top-bar .topbar-responsive{
+  font-family: "Roboto Condensed" !important;
+}
+
+.header-name{
+  font-size: 42px;
+  font-family: "Open Sans Condensed";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: left;
+  z-index: 17;
+  margin-bottom: 2px;
+  padding-left: 1rem;
+}
+
+.header-sub-head{
+  font-size: 16px;
+  font-family: "Roboto Condensed";
+  color: rgb(255, 255, 255);
+  line-height: 1;
+  text-align: left;
+  z-index: 16;
+  margin-bottom: 0px;
+  padding-left: 1rem;
+}
+
+.header-logo{
+  max-width: 10%;
+  float: left;
+  margin-right: 15px;
+}
+.hero-pattern{
+  display: block;
+  background-image: url("../img/HeroSection.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.heroText{
+  background-color: transparent;
+}
+
+h2.hero{
+  font-size: 4em;
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  color: $white;
+  line-height: .9em;
+  padding-left: 2rem;
+}
+
+h3.heroSubHead{
+  font-size: 2.5em;
+  font-family: "Open Sans Condensed";
+  color: $white;
+  padding-left: 2rem;
 }
