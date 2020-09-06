@@ -1,11 +1,14 @@
-$portfolio-hero-header-background-color: $light-gray;
+.portfolio-header-pattern{
+  display: block;
+  width: 500px;
+  height: 400px;
+}
 
 .portfolio-hero-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: $portfolio-hero-header-background-color;
+  flex-direction: row;
   padding: 2rem 0;
+  background-color: #ffffff;
 }
 
 .portfolio-hero-header-description {

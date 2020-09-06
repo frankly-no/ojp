@@ -8,7 +8,20 @@
         <link rel="stylesheet" href="{{root}}assets/css/app.css">
     </head>
     <body>
-        {{> body}}
-        <script src="{{root}}assets/js/app.js"></script>
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          {{> topbar-responsive}}
+        </div>
+      </div>
+        <div class="grid-x grid-padding-x">
+          <div class="large-12 cell">
+            {{> body}}
+            <script src="{{root}}assets/js/app.js"></script>          </div>
+        </div>
+      <div class="grid-x grid-padding-x">
+        <div class="large-12 cell">
+          {{> social-footer}}
+          <script src="{{root}}assets/js/app.js"></script>          </div>
+      </div>
     </body>
 </html>

@@ -3,17 +3,17 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
 .topbar-responsive {
   background: $topbar-responsive-bg;
-  padding: 1rem 1.5rem;
+  padding: 
 
   .topbar-responsive-logo {
     color: $white;
     vertical-align: middle;
-    max-width: 15%;
   }
 
   .menu {
     background: $topbar-responsive-bg;
-    font-family: "Roboto Condensed";
+    font-family: 'Roboto Condensed', sans-serif;
+
     li:last-of-type {
       margin-right: 0;
     }
@@ -33,9 +33,9 @@ $topbar-responsive-animation-type: fade-in; // or use slide-down or none
 
     .topbar-responsive-button {
       color: $topbar-responsive-bg;
-      background: $white;
-      border-color: $white;
       border-radius: 5px;
+      background-color: rgb(255, 255, 255);
+      z-index: 19;
       transition: color 0.15s ease-in, border-color 0.15s ease-in;
 
       &:hover {

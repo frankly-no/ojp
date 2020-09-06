@@ -85,20 +85,22 @@
   color: rgb(255, 255, 255);
   line-height: 1.2;
   text-align: left;
-  position: absolute;
-  left: 98.703px;
-  top: 35.809px;
   z-index: 17;
+  margin-bottom: 2px;
 }
 
 .header-sub-head{
   font-size: 16px;
   font-family: "Roboto Condensed";
   color: rgb(255, 255, 255);
-  line-height: 1.2;
+  line-height: 1;
   text-align: left;
-  position: absolute;
-  left: 99.891px;
-  top: 86.713px;
   z-index: 16;
+  margin-bottom: 0px;
+}
+
+.header-logo{
+  max-width: 10%;
+  float: left;
+  margin-right: 15px;
 }
