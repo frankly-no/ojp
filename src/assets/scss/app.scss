@@ -70,10 +70,10 @@
 @import 'components/building-blocks/testimonial-slider';
 @import 'components/building-blocks/portfolio-resume-scrolling-container';
 @import 'components/building-blocks/portfolio-resume';
-@import 'components/building-blocks/topbar-responsive';
-@import 'components/building-blocks/social-footer';
+//@import 'components/building-blocks/social-footer';
 @import 'components/building-blocks/image-hover-wrapper';
 @import 'components/building-blocks/menu-fancy';
+@import 'components/building-blocks/topbar-responsive';
 
 .top-bar .topbar-responsive{
   font-family: "Roboto Condensed" !important;
@@ -87,6 +87,7 @@
   text-align: left;
   z-index: 17;
   margin-bottom: 2px;
+  padding-left: 1rem;
 }
 
 .header-sub-head{
@@ -97,10 +98,38 @@
   text-align: left;
   z-index: 16;
   margin-bottom: 0px;
+  padding-left: 1rem;
 }
 
 .header-logo{
   max-width: 10%;
   float: left;
   margin-right: 15px;
+}
+.hero-pattern{
+  display: block;
+  background-image: url("../img/HeroSection.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10rem;
+}
+
+.heroText{
+  background-color: transparent;
+}
+
+h2.hero{
+  font-size: 4em;
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  color: $white;
+  line-height: .9em;
+  padding-left: 2rem;
+}
+
+h3.heroSubHead{
+  font-size: 2.5em;
+  font-family: "Open Sans Condensed";
+  color: $white;
+  padding-left: 2rem;
 }
