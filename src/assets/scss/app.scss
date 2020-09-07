@@ -76,14 +76,37 @@
 @import 'components/building-blocks/topbar-responsive';
 
 
-.grid-container{
+.grid-container {
   padding-right: 0px !important;
   padding-left: 0px !important;
   max-width: none;
 }
 
-.top-bar .topbar-responsive{
+.grid-container-header, .grid-container-footer{
+  background-color: #00626b;
+}
+
+.grid-container-hero{
+  background-image: url("../img/hero.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-container-callout{
+  background-image: url("../img/callout-bkg-pattern.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.grid-container-focus{
+  background-image: url("../img/focus-section-bkg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.topbar-responsive{
   font-family: "Roboto Condensed" !important;
+  padding: 1rem 0rem;
 }
 
 .off-canvas-nav{
@@ -112,7 +135,6 @@
   text-align: left;
   z-index: 17;
   margin-bottom: 2px;
-  padding-left: 1rem;
 }
 
 .header-sub-head{
@@ -123,20 +145,11 @@
   text-align: left;
   z-index: 16;
   margin-bottom: 0px;
-  padding-left: 1rem;
 }
 
-.header-logo{
-  max-width: 10%;
-  float: left;
-  margin-right: 15px;
-}
-.hero-pattern{
-  display: block;
-  background-image: url("../img/HeroSection.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding-top: 10rem;
+.hero-section{
+  padding-top: 15rem;
+  padding-bottom: 5rem;
 }
 
 .heroText{
@@ -149,46 +162,33 @@ h2.hero{
   font-weight: bold;
   color: $white;
   line-height: .9em;
-  padding-left: 2rem;
 }
 
 h3.heroSubHead{
   font-size: 2.5em;
   font-family: "Open Sans Condensed";
   color: $white;
-  padding-left: 2rem;
 }
 
-footer{
-  background-color: #00626b !important;
-  margin-left: .9375em;
-  margin-right: .9375em;
-}
-
-h3.footerName{
-  font-size: 2.5em;
+.footerName{
+  font-size: 1.5em;
   font-family: "Open Sans Condensed";
   color: $white;
-  padding-left: 2rem;
+  padding-top: .5rem;
 }
 
-.homeCalloutContainer{
-  background-image: url("../img/home-bkg-large.svg");
-  background-size: cover;
-  margin-top: 2rem;
-}
-
-.homeCallout{
-  background-repeat: no-repeat;
-  background-image: url("../img/pattern-border.svg");
-  min-height: 90px;
+.copyright{
+  font-size: .75rem;
+  color: $white;
 }
 
 .homeCalloutText {
   font-size: 26px;
   font-family: "Bitter";
   background-color: $white;
-  padding-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 0px;
+  padding: 5rem;
 }
 
 .homeCalloutICanHelp{
@@ -197,13 +197,41 @@ h3.footerName{
   color: rgb(0, 98, 107);
   font-weight: bold;
   text-align: right;
-  padding-right: 4rem;
+  background-color: $white;
+  margin-top: 0px;
+  margin-bottom: 4rem;
+  padding: 2rem;
 }
 
-.aof {
+.focusAreas{
+  background-color: #dff6f6;
+  padding: 5rem;
+  margin: 4rem 0rem;
+}
+
+.focusItems{
+  margin-top: 3rem;
+}
+
+.focusAreaItem{
+  font-size: 24px;
+  font-family: "Bitter";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.focusAreaHeader{
   font-size: 50px;
   font-family: "Open Sans Condensed";
   color: rgb(0, 98, 107);
   font-weight: bold;
   line-height: 1.2;
+}
+
+.binder{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1166px;
 }
