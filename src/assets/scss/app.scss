@@ -75,7 +75,19 @@
 @import 'components/building-blocks/menu-fancy';
 @import 'components/building-blocks/topbar-responsive';
 
+.grid-container .ojp{
+  display: flex;
+  background-image: url("../img/full-bkg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
 .top-bar .topbar-responsive{
+  font-family: "Roboto Condensed" !important;
+}
+
+.offCanvasMenu{
   font-family: "Roboto Condensed" !important;
 }
 
