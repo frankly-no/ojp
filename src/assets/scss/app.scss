@@ -75,20 +75,33 @@
 @import 'components/building-blocks/menu-fancy';
 @import 'components/building-blocks/topbar-responsive';
 
-.grid-container .ojp{
-  display: flex;
-  background-image: url("../img/full-bkg.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+
+.grid-container{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  max-width: none;
 }
 
 .top-bar .topbar-responsive{
   font-family: "Roboto Condensed" !important;
 }
 
-.offCanvasMenu{
+.off-canvas-nav{
   font-family: "Roboto Condensed" !important;
+  background-color: $white !important;
+  padding-left: 1rem;
+}
+
+.off-canvas-menu li a{
+  color: #00626b !important;
+}
+
+.off-canvas-button{
+  color: $white;
+  background: $topbar-responsive-bg;
+  border-color: $topbar-responsive-bg;
+  border-radius: 5px;
+  transition: color 0.15s ease-in, border-color 0.15s ease-in;
 }
 
 .header-name{
