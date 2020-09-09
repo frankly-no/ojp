@@ -109,6 +109,9 @@
   padding: 1rem 0rem;
 }
 
+.locked{
+  margin-right: 15px;
+}
 .off-canvas-nav{
   font-family: "Roboto Condensed" !important;
   background-color: $white !important;
@@ -188,7 +191,7 @@ h3.heroSubHead{
   background-color: $white;
   margin-top: 4rem;
   margin-bottom: 0px;
-  padding: 5rem;
+  padding: 1rem;
 }
 
 .homeCalloutICanHelp{
@@ -233,5 +236,17 @@ h3.heroSubHead{
 .binder{
   margin-left: auto;
   margin-right: auto;
+  background: transparent;
+  padding: 1rem;
   max-width: 1166px;
+}
+
+@media only screen and (max-width: 600px) {
+  .hero-section{
+    padding: 4rem 1rem;
+  }
+
+  .focusAreas{
+    padding: 1rem;
+  }
 }
