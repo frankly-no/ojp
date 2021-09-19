@@ -69,6 +69,6 @@ http://localhost:8000
 
 To create compressed, production-ready assets, run `yarn run build`.
 
-![salmon-meat-logo](https://user-images.githubusercontent.com/63419988/128427232-dc57490d-0356-4f3c-bce3-7afef12bbf66.jpg)
+![salmon-meat-logo](https://user-images.githubusercontent.com/63419988/DDE4715D-33A6-46A5-8ED6-FE7094AAB96B.jpeg)
 
 https://github.com/jmehaffey1/ojp/blob/master/DDE4715D-33A6-46A5-8ED6-FE7094AAB96B.jpeg
